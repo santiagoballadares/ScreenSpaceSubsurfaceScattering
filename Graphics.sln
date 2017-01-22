@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Framework", "Framework\Framework.vcxproj", "{98D6B51B-CB0A-4389-ADC6-24082B967C3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game Modules", "Game Modules", "{26FF1E94-61DD-4E24-A071-50FA11CAC038}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SSS", "SSS\SSS.vcxproj", "{F90FBF53-B9D5-4781-87C8-D4349471C82C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F} = {98D6B51B-CB0A-4389-ADC6-24082B967C3F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SSSSS", "SSSSS\SSSSS.vcxproj", "{8CAB41C4-D31C-48CE-BAEC-E1DD6E573DDE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F} = {98D6B51B-CB0A-4389-ADC6-24082B967C3F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Debug|Win32.Build.0 = Debug|Win32
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Release|Win32.ActiveCfg = Release|Win32
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Release|Win32.Build.0 = Release|Win32
+		{F90FBF53-B9D5-4781-87C8-D4349471C82C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F90FBF53-B9D5-4781-87C8-D4349471C82C}.Debug|Win32.Build.0 = Debug|Win32
+		{F90FBF53-B9D5-4781-87C8-D4349471C82C}.Release|Win32.ActiveCfg = Release|Win32
+		{F90FBF53-B9D5-4781-87C8-D4349471C82C}.Release|Win32.Build.0 = Release|Win32
+		{8CAB41C4-D31C-48CE-BAEC-E1DD6E573DDE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8CAB41C4-D31C-48CE-BAEC-E1DD6E573DDE}.Debug|Win32.Build.0 = Debug|Win32
+		{8CAB41C4-D31C-48CE-BAEC-E1DD6E573DDE}.Release|Win32.ActiveCfg = Release|Win32
+		{8CAB41C4-D31C-48CE-BAEC-E1DD6E573DDE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F90FBF53-B9D5-4781-87C8-D4349471C82C} = {26FF1E94-61DD-4E24-A071-50FA11CAC038}
+		{8CAB41C4-D31C-48CE-BAEC-E1DD6E573DDE} = {26FF1E94-61DD-4E24-A071-50FA11CAC038}
+	EndGlobalSection
+EndGlobal

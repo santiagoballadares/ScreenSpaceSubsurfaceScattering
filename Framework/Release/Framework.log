@@ -1,0 +1,51 @@
+﻿Build started 31/07/2012 15:24:32.
+     1>Project "C:\Users\B1039564\Visual Studio 2010\Projects\GraphicsFramework\Framework\Framework.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Framework.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Frustum.cpp HeightMap.cpp MD5Anim.cpp MD5Mesh.cpp Matrix3.cpp Matrix4.cpp Mesh.cpp Mouse.cpp OBJMesh.cpp OGLRenderer.cpp Quaternion.cpp SceneNode.cpp Shader.cpp Window.cpp minimapCamera.cpp
+         Camera.cpp
+         Frustum.cpp
+         HeightMap.cpp
+         MD5Anim.cpp
+         MD5Mesh.cpp
+         Matrix3.cpp
+         Matrix4.cpp
+         Mesh.cpp
+         Mouse.cpp
+         OBJMesh.cpp
+         OGLRenderer.cpp
+         Quaternion.cpp
+         SceneNode.cpp
+         Shader.cpp
+         Window.cpp
+         minimapCamera.cpp
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\B1039564\Visual Studio 2010\Projects\GraphicsFramework\Release\Framework.lib" /NOLOGO /LTCG Release\Camera.obj
+         Release\Frustum.obj
+         Release\GameTimer.obj
+         Release\HeightMap.obj
+         Release\Keyboard.obj
+         Release\Matrix3.obj
+         Release\Matrix4.obj
+         Release\MD5Anim.obj
+         Release\MD5Mesh.obj
+         Release\Mesh.obj
+         Release\minimapCamera.obj
+         Release\Mouse.obj
+         Release\OBJMesh.obj
+         Release\Plane.obj
+         Release\SceneNode.obj
+         Release\Shader.obj
+         Release\OGLRenderer.obj
+         Release\Quaternion.obj
+         Release\Window.obj
+         Framework.vcxproj -> C:\Users\B1039564\Visual Studio 2010\Projects\GraphicsFramework\Release\Framework.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\Framework.unsuccessfulbuild".
+         Touching "Release\Framework.lastbuildstate".
+     1>Done Building Project "C:\Users\B1039564\Visual Studio 2010\Projects\GraphicsFramework\Framework\Framework.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.14

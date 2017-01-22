@@ -1,0 +1,20 @@
+﻿  Renderer.cpp
+Renderer.cpp(170): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+Renderer.cpp(196): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Renderer.cpp(199): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Renderer.cpp(217): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Renderer.cpp(220): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Renderer.cpp(223): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Renderer.cpp(247): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Renderer.cpp(379): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+Renderer.cpp(403): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+Renderer.cpp(537): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+Renderer.cpp(537): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+Renderer.cpp(556): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+Renderer.cpp(556): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+Renderer.cpp(563): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+Renderer.cpp(563): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+Renderer.cpp(596): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+Renderer.cpp(596): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+  SSSSS.vcxproj -> C:\Users\Santiago\Desktop\Framework\Debug\SSSSS.exe
+  SSSSS.vcxproj -> C:\Users\Santiago\Desktop\Framework\Debug\SSSSS.pdb (Full PDB)
